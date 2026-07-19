@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 // Put your Role ID here
-const ROLE_ID = "YOUR_ROLE_ID";
+const ROLE_ID = "1528254838553706616";
 
 client.once("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
@@ -31,4 +31,4 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
     }
 });
 
-client.login("YOUR_BOT_TOKEN");
+client.login("MTUyODI1NDQ3MTcxOTc0NzU4NA.GT8_4T._VK8LfKjijHMBFy6ZoQmPj1M7LPeJc5a_Jt0hs");
